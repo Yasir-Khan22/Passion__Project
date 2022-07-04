@@ -29,6 +29,7 @@ body {
 }
 .grid > div > h2 {
   padding: 1rem;
+  font-size: 1.8rem;
   color: var(--heading-clr);
 }
 .grid > div > p {
@@ -36,4 +37,7 @@ body {
 }
 .grid > div:first-child {
   flex-basis: 100%;
+}
+.grid > div:last-child {
+  margin-bottom: 0;
 }
