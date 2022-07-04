@@ -1,0 +1,39 @@
+:root {
+  --background-clr: #151b1e;
+  --background-clr2: #1c2327;
+  --heading-clr: hsl(352 77% 60%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 2rem;
+  background: var(--background-clr);
+  color: #fff1e6;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.2rem / 1.5;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.grid > div {
+  flex: 1 1 20rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  background: var(--background-clr2);
+}
+.grid > div > h2 {
+  padding: 1rem;
+  color: var(--heading-clr);
+}
+.grid > div > p {
+  font-size: 1.5rem;
+}
+.grid > div:first-child {
+  flex-basis: 100%;
+}
